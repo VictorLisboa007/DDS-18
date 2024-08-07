@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="icon" href="https://meubordado.com/wp-content/uploads/2018/07/Flamengo.jpg">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <label for="nome">Digite seu nome:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome...">
+        <br>
+        <br>
+        <label for="meuemail">Digite seu email:</label>
+        <input type="email" name="meuemail" placeholder="Digite seu email...">
+        <br>
+        <br>
+        <label for="senha">Digite sua senha:</label>
+        <input type="password" name="senha" placeholder="Digite sua senha...">
+        <br>
+        <br>
+        <label for="dt_nasc">Data de nascimento:</label>
+        <input type="date" name="dt_nasc">
+        <input type="datetime-local" name="dt_nasc">
+        <input type="time" name="dt_nasc">
+        <br>
+        <br>
+        <label for="telefone">Telefone:</label>
+        <input type="tel" name="telefone" placeholder="Digite seu Telefone...">
+        <br>    
+        <br>
+        <label for="botao">Botão:</label>
+        <input type="button" name="botao" value="Botão">
+        <br>
+        <br>
+        <label for="textao">Textão:</label>
+        <textarea name="textao" placeholder="Insira um texto..."></textarea>
+        <br>
+        <br>
+        <label for="cor">Cor:</label>
+        <input type="color" name="cor">
+        <br>
+        <br>
+        <label for="numero">Número:</label>
+        <input type="number" name="numero" min="-50" max="50" value="-10" step="10">
+        <br>
+        <br>
+        <label for="range">Barrinha:</label>
+        0<input type="range" name="range" min="0" max="100" value="50" step="10">100
+        <br>
+        <br>
+        <label for="escolha">Escolha seu curso:</label>
+        <br>
+        <input type="radio" name="escolha" value="automacao" checked> Automação
+        <input type="radio" name="escolha" value="eletrica"> Elétrica
+        <input type="radio" name="escolha" value="dds"> Desenvolvimento de Sistemas
+        <br>
+        <br>
+        <label for="caixinha">Tecnologias</label>
+        <br>
+        <input type="checkbox" name="caixinha" value="zap" checked>Whatsapp
+        <input type="checkbox" name="caixinha" value="robo" >Robótica
+        <input type="checkbox" name="caixinha" value="pneu" >Pneu
+        <input type="checkbox" name="caixinha" value="predio" >Prédio
+        <br>
+        <br>
+        <label for="heroi">Escolha seu Herói</label>
+        <br>
+        <select name="heroi">
+            <option value="Batman">Batman</option>
+            <option value="Wolverine">Wolverine</option>
+            <option value="Kratos">Kratos</option>
+            <option value="Deadpool">Deadpool</option>
+        </select>
+        <br>
+        <br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Acabou">
+    </form>
+</body>
+</html>
