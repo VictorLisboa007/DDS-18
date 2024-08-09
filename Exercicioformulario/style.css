@@ -1,8 +1,0 @@
-.line::after {
-    content: " ";
-    background-color: thistle;
-    display: block;
-    height: 5px;
-    width: 100%;
-  
-  }
