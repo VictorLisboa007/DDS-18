@@ -1,0 +1,38 @@
+div{
+    background-color: yellow;
+}
+#vermelho{
+    background-color: red;
+}
+#azul{
+    background-color: blue;
+    width: 500px;
+    height: 300px;
+}
+.rosa{
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+#primeiro{
+    margin: 20px 10px 15px 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+#segundo{
+    padding: 10px;
+    padding-top: 20px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-left: 5px;
+}
+#terceiro{
+    border: 5px white solid;
+
+    border-width: 10px;
+    border-color: brown white black red;
+    border-style: inset;
+}
