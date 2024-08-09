@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário elaborado</title>
+    <link rel="icon" href="https://meubordado.com/wp-content/uploads/2018/07/Flamengo.jpg">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+    <div style="border: 1px black solid; padding: 15px; width: 700px;">
+        <p>Dados Pessoais</p>
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        <br>
+        <label for="endereco">Endereço:</label>
+        <input type="text" name="endereco">
+        <br>
+        <br>
+        <label for="cidade">Cidade:</label>
+        <input type="text" name="cidade" >
+        <br>
+        <br>
+        <label for="estado">Estado:</label>
+        <select name="estado">
+            <option value="SãoPaulo">São Paulo</option>
+            <option value="RiodeJaneiro">Rio de Janeiro</option>
+            <option value="EspiritoSanto">Espirito Santo</option>
+            <option value="Bahia">Bahia</option>
+        </select>
+    </div>
+        <br>
+    <div style="border: 1px black solid; padding: 15px; width: 700px;"> 
+        <p>Dados Profissionais</p>
+        <label for="escolha">Natureza do Cargo</label>
+        <br>
+        <input type="radio" name="escolha" value="gerencia" checked> Gerência
+        <input type="radio" name="escolha" value="financeiro"> Financeiro
+        <input type="radio" name="escolha" value="recepcao"> Recepção
+        <input type="radio" name="escolha" value="administrativo"> Administrativo
+        <input type="radio" name="escolha" value="juridico"> Jurídico
+        <br>
+        <br>
+        <label for="caixinha">Área de Interesse</label>
+        <br>
+        <input type="checkbox" name="caixinha" value="computacao">Computação
+        <input type="checkbox" name="caixinha" value="biologia">Biologia
+        <input type="checkbox" name="caixinha" value="meioambiente">Meio Ambiente
+        <input type="checkbox" name="caixinha" value="engenharia">Engenharia
+        <input type="checkbox" name="caixinha" value="historia">História
+        <br>
+        <br>
+        <label for="mini-curriculo">Mini-curriculo:</label>
+        <textarea name="mini-curriculo" style="width: 350px; height: 100px;"></textarea>
+    </div>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+</body>
+</html>
