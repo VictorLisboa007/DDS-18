@@ -9,8 +9,9 @@
 <body>
     <h1>Formulário</h1>
     <form>
-    <div style="border: 1px black solid; padding: 15px; width: 700px;">
-        <p>Dados Pessoais</p>
+    <div>
+    <fieldset style="width: 750px;">
+        <legend>Dados Pessoais</legend>
         <label for="nome">Nome:</label>
         <input type="text" name="nome">
         <br>
@@ -30,10 +31,12 @@
             <option value="EspiritoSanto">Espirito Santo</option>
             <option value="Bahia">Bahia</option>
         </select>
+    </fieldset>
     </div>
         <br>
-    <div style="border: 1px black solid; padding: 15px; width: 700px;"> 
-        <p>Dados Profissionais</p>
+    <div> 
+    <fieldset style="width: 750px;">
+        <legend>Dados Profissionais</legend>
         <label for="escolha">Natureza do Cargo</label>
         <br>
         <input type="radio" name="escolha" value="gerencia" checked> Gerência
@@ -54,8 +57,8 @@
         <br>
         <label for="mini-curriculo">Mini-curriculo:</label>
         <textarea name="mini-curriculo" style="width: 350px; height: 100px;"></textarea>
+    </fieldset>
     </div>
-        <br>
         <br>
         <input type="submit" value="Enviar">
         <input type="reset" value="Limpar">
