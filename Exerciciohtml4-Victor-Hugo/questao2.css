@@ -1,0 +1,5 @@
+#imagem{
+    background-image: url('./images.jpg');
+    width: 1000px;
+    height: 100px;
+}
