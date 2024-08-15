@@ -1,5 +1,41 @@
-#imagem{
-    background-image: url('./images.jpg');
-    width: 1000px;
+.fundoazulclaro {
+    background-color:lightblue;
+}
+
+.paragrafoverdeclaro {
+    background-color: lightgreen;
+}
+
+.imagemrepetida {
+    background-image: url('images.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.imagemrepetidavertical {
+    background-image: url('images.jpg');
+    background-repeat: repeat-y;
+    height: 500px;
+}
+
+.imagemnaorepete {
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
+.imagemcentralizada {
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100px;
+}
+
+.imagemfundoamarelo {
+    background-color: yellow;
+    background-image: url('images.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100px;
 }
