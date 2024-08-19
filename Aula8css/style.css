@@ -1,0 +1,56 @@
+body{
+    background-color: gray;
+    height: 900px;
+}
+
+#tudo{
+    background-color: orange;
+    padding: 5px;
+    display: inline-block;
+}
+
+.quad{
+    height: 200px;
+    width: 200px;
+}
+
+#quad1{
+    background-color: red;
+    /* flex-shrink: 0; */
+}
+
+#quad2{
+    background-color: yellow;
+    /* flex-grow: 0; */
+}
+
+#quad3{
+    background-color: green;
+}
+
+#container{
+    background-color: black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: center;
+    /* align-items: center; */
+    /* align-content: center; */
+}
+
+#container2{
+    background-color: aqua;
+    padding: 2px;
+    height: 600px;
+    display: grid;
+    /* grid-template-rows: auto auto auto; */
+    /* grid-template-columns: auto auto; */
+    grid-template: 2fr 2fr / 1fr 2fr 3fr;
+    gap: 10px;
+    /* justify-items: center;
+    align-items: center;
+    align-content: center; */
+}
