@@ -3,6 +3,11 @@ body {
     font-family: Arial, sans-serif;
 }
 
+header {
+    background-color: rgb(32, 41, 173);
+    padding: 10px 20px;
+}
+
 h1{
     text-align: center;
 }
@@ -10,9 +15,11 @@ h1{
 .navbar {
     display: flex;
     align-items: center;
-    background-color: rgb(32, 41, 173);
     justify-content: space-between;
-    padding: 10px 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    position: relative;
+    height: 50px;
 }
 
 .logo-image {
@@ -22,16 +29,16 @@ h1{
 
 .nav-links {
     display: flex;
-    gap: 20px;
+    flex: 1;
+    justify-content: center;
+    margin-left: 80px;
 }
 
 .nav-item {
-    color: white;
+    color: #FFFFFF;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     font-size: 16px;
-    display: flex;
-    align-items: center;
 }
 
 .nav-item:hover {
