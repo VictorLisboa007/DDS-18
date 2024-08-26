@@ -10,12 +10,9 @@ h1{
 .navbar {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(32, 41, 173);
     padding: 10px 20px;
-}
-
-.logo {
-    margin-right: 500px;
 }
 
 .logo-image {

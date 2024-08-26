@@ -11,11 +11,8 @@ h1{
     display: flex;
     align-items: center;
     background-color: rgb(32, 41, 173);
+    justify-content: space-between;
     padding: 10px 20px;
-}
-
-.logo {
-    margin-right: 500px;
 }
 
 .logo-image {
