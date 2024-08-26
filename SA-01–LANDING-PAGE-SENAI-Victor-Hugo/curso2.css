@@ -55,7 +55,7 @@ body {
     padding: 20px;
 }
 
-.course-details {
+.curso-detalhes {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -65,25 +65,25 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.course-info {
+.curso-info {
     flex: 1;
     margin-right: 20px;
 }
 
-.course-image {
+.curso-imagem {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.course-image img {
+.curso-imagem img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
 }
 
-.course-additional-info {
+.curso-adicional-info {
     margin-top: 10px;
     font-size: 0.9em;
     color: #555;
@@ -99,7 +99,7 @@ body {
     flex-direction: column;
 }
 
-.footer-content {
+.footer-contem {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -107,7 +107,7 @@ body {
     margin: 0 auto;
 }
 
-.contact-info, .about, .social-media {
+.contato, .sobre {
     flex: 1;
     margin: 0 10px;
 }

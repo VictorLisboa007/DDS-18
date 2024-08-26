@@ -46,13 +46,13 @@ main {
     padding: 2rem;
 }
 
-.course-grid {
+.curso-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
 }
 
-.course {
+.curso {
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 8px;
@@ -65,18 +65,18 @@ main {
     text-align: center;
 }
 
-.course img {
+.curso img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.course h2 {
+.curso h2 {
     margin: 1rem 0;
     font-size: 1.5rem;
 }
 
-.course p {
+.curso p {
     padding: 0 1rem 1rem;
 }
 
@@ -106,7 +106,7 @@ main {
     flex-direction: column;
 }
 
-.footer-content {
+.footer-contem {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -114,7 +114,7 @@ main {
     margin: 0 auto;
 }
 
-.contact-info, .about, .social-media {
+.contato, .sobre{
     flex: 1;
     margin: 0 10px;
 }
