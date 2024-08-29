@@ -30,7 +30,7 @@ h1{
 .nav-links {
     display: flex;
     flex: 1;
-    justify-content: left;
+    justify-content: center;
     margin-left: 80px;
 }
 
