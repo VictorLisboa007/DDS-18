@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 13 - Cadastro</title>
+    <link rel="icon" href="https://meubordado.com/wp-content/uploads/2018/07/Flamengo.jpg">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="caixa">
+        <span class="material-symbols-outlined">
+            taunt
+        </span>
+        <h1>CADASTRO</h1>
+        <form>
+            <label>Escreva seu Usuário: </label>
+            <input id="inputUsuarioNovo" type="text" placeholder="Usuário" class="inputForm">
+            <br>
+            <br>
+            <label>Escreva seu Email:</label>
+            <input id="inputEmailNovo" type="email" placeholder="Email" class="inputForm">
+            <br>
+            <br>
+            <label>Escreva sua Senha: </label>
+            <input id="inputSenhaNovo" type="password" placeholder="Senha" class="inputForm">
+            <br>
+            <br>
+            <label>Confirme sua Senha:</label>
+            <input id="inputSenhaConfirme" type="password" placeholder="Confirme Senha" class="inputForm">
+            <br>
+            <br>
+            <input id="inputCadastrar" type="submit" value="Cadastrar" class="inputBtn" onclick="cadastrar()">
+        </form>
+        <p>Não possui conta? <a href="./index.html">Login</a></p>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
